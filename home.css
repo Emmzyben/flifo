@@ -59,7 +59,7 @@
     box-shadow:0px 3px 8px -3px rgba(1,1,1,0.5);
     outline:none;
     border:0;
-    background: #0e0e88de;;
+    background: #bf36cede;
     border-radius:20px;
     color:#fff;
     font-weight:400;
@@ -270,7 +270,7 @@
     .section0{
     width:100%;
     padding:30px;
-    border-bottom: 2px solid #0e0e88de;
+    border-bottom: 2px solid #b838c9de;
     }
     
     .section0 .card{
@@ -281,9 +281,9 @@
     margin:1%;
     display:inline-block;
     text-align:center;
-    border-top:2px solid #0e0e88de;
-    background-color: #0e0e88de;
-    color: white;
+    border-bottom:3px solid #b838c9de;
+    background-color: #f0c9ecde;
+    color: #b838c9de;
     }
     
     .section0 .banner{
@@ -321,7 +321,7 @@
     
     .container table{
     width:100%;
-    border-bottom: 2px solid #0e0e88de;
+    border-bottom: 2px solid #ac29bbde;
     height: 400px;
     }
     
@@ -366,7 +366,7 @@
     
     #moreaboutus{
       margin-top: 10rem;
-      border-bottom:2px solid #0e0e88de;
+      border-bottom:2px solid #941fa1de;
     }
     
            .slick{
@@ -904,7 +904,6 @@
     header{
       position: fixed;
       height: 70px;
-      background-color: #0e0e88de;
       width: 100%;
       z-index: 1;
       top: 0;
@@ -984,13 +983,14 @@
     #round{
       border-radius: 10px;
       margin: 10px;
-      width: 300px;
+      width: 250px;
+      border-color: #ac21a0de;
     }
     button:hover{
       background-color: orange;
     }
     #video{
       margin: 30px;
-      border-top: 1px solid #0e0e88de;
+      border-top: 1px solid #f3eef2de;
       
     }
