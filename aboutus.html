@@ -12,6 +12,417 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home.css">
+
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!--PLUGIN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Kanit:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #2c3145;
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        outline: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .section_all {
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        min-height: 100vh;
+    }
+
+    .section-title {
+        font-weight: 700;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+    .section-subtitle {
+        letter-spacing: 0.4px;
+        line-height: 28px;
+        max-width: 550px;
+    }
+
+    .section-title-border {
+        background-color: #000;
+        height: 1 3px;
+        width: 44px;
+    }
+
+    .section-title-border-white {
+        background-color: #fff;
+        height: 2px;
+        width: 100px;
+    }
+
+    .text_custom {
+        color: blue;
+    }
+
+    .about_icon i {
+        font-size: 22px;
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+        display: inline-block;
+        background: #fff;
+        border-radius: 35px;
+        color: blue;
+        box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+    }
+
+    .about_header_main .about_heading {
+        max-width: 450px;
+        font-size: 24px;
+    }
+
+    .about_icon span {
+        position: relative;
+        top: -10px;
+    }
+
+    .about_content_box_all {
+        padding: 28px;
+    }
+
+    @-webkit-keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1
+        }
+    }
+
+    .caption,
+    .well,
+    .jumbotron {
+        -webkit-animation: fade;
+        -webkit-animation-duration: 5s;
+    }
+</style>
+
+<body style="background-color:white;">
+
+    
+    <nav class="navbar navbar-default navbar-fixed-top " id="sizer" style="background-color:#b838c9de;border-bottom: 1px solid  #891f97de;">
+        <div class="container-fluid">
+          <div class="navbar-header" style="height:50px; width:auto;">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>     
+            </button>
+            <a class="navbar-brand" href="#"></a>
+            <h1 id="namez">FLIFO</h1>
+            <img src="images/ngo25.png" height=50px width=auto style="border-radius: 50%;" id="logo">
+          </div>
+          <div class="collapse navbar-collapse navbar-right" id="myNavbar" style="margin-top: 10px;" >
+          <ul class="nav navbar-nav navbar-right ">
+          <li><a id="az" href="index.html" ><b>HOME</b></a></li>
+          <li><a id="az" href="aboutus.html" ><b>ABOUT US</b></a></li>
+          <li><a id="az" href="volunteers.html" ><b>OUR TEAM</b></a></li>
+    
+          <li class="dropdown"  ><a id="az" class="dropdown-toggle" data-toggle="dropdown" href="#"><b>GALLERY</b><span class="caret"></span></a>
+            <ul class="dropdown-menu" style="background-color: #b838c9de;" >
+            <li><a id="az" href="photos.html" ><b>PHOTOS</b></a></li>
+              <li><a id="az" href="videos.html" ><b>VIDEOS</b></a></li>
+            </ul>
+          </li>
+          <li class="dropdown" ><a id="az"  class="dropdown-toggle" data-toggle="dropdown" href="#" ><b>WHAT WE DO?</b><span class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color: #b838c9de;">
+                <li><a id="az" href="events.html" ><b>Our SDG projects</b></a></li>
+                <li><a id="az" href="projects.html" ><b>PROJECTS</b></a></li>
+              </ul>
+            </li>
+          <li><a id="az" href="contactus.html" ><b>CONTACT US</b></a></li>
+          <li><a id="az" href="donation.html" ><b>DONATE</b></a></li>
+        
+        </ul>
+      </div>
+    </div>
+    </nav>
+    
+
+
+    <section class="section_all bg-light" id="about">
+            <div id="contain" >
+                        <h1 style="font-size: 40px;">About Our Organisation<h1>
+                        <p style="font-size: 17px; font-weight: lighter; margin: 5px;">FLOURISHING LIFE INTERNATIONAL ORGANIZATION(FLIFO)is a non-governmental
+                            organization based in NIGERIA,<br> founded as a Non-Profit and Non-Governmental Organizationand a member of the Organization of Women in Sciences For<br> Developmenting
+                            Countires(OWSDC).<br> FLIFO is dedicated to promoting integrated development,Health Education,Capacity Development of Young and Vulnerable population.
+                            Empowerment.<br> The FLIFO Organization is trying hard with the community – based efforts to improve the
+                            living condition of the deprived section of society. <br><br>The FLIFO team comprises of people
+                            from
+                            multidisciplinary and multi-sector backgrounds across NIGERIA and THE CONTINENT OF AFRICA <br>that share a common
+                            platform of thinking and doing their bit towards the making of a cognitive society, to
+                            intending to put collective efforts to work<br> together and gather people who find
+                            themselves
+                            inspired to uplift the lives of those people who grow with inadequate education, health
+                            care,<br> resources, and psychological support – several calls them as “underprivileged”..<br>
+                       
+                            <br>FLIFO runs on a fully decentralized management system,having Mrs Nkiru Chinwe Onuko
+                            as THE FOUNDER/ EXECUTIVE DIRECTOR<br>
+                            who is supported by a cadre of professional and administrative staff.
+
+                            Program and performances are monitored on a regular basis and constant <br>
+                            review
+                            and planning meetings. Eminent experts from the fields of management,
+                            agriculture, environment, health, women empowerment,<br> social work, etc.
+                            are
+                            invited to these meetings/events.
+                        </p>
+                    </div>
+
+                <div class="col-lg-6">
+                    <div class="img_about mt-3"> 
+                        <img src="images/ngo58.png" alt="" height="430"  class="img-fluid mx-auto d-block">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img_about mt-3"> 
+                        <img src="new_image/cert.jpg" alt="" height="430" width="430" class="img-fluid mx-auto d-block">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-lg-4">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="fas fa-sitemap"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold"  style="font-size: 15px;">Organisational structure</h5>
+                            <p class="edu_desc mt-3 mb-0 text-muted" style="color: black;">
+                                FLIFO firmly believes in multiplying its efforts through collaboration &
+                                partnerships
+                                that bring together government, non-government, and corporate in a
+                                collaborative
+                                process for socio-economic development, improving agriculture, environment,
+                                health, and women/child empowerment. FLIFO puts a lot of emphasis on upgrading the
+                                skills and capacities of its staff and Volunteers. For this purpose, need-based training is
+                                regularly organized in different areas of skills acquisitions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="far fa-eye"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold" style="font-size: 15px;">Our Vision</h5>
+                            <p class="edu_desc mb-0 mt-3 text-muted" style="color: black;">We aim to create a healthy, learned and empowered society
+                                for the Youth, Women and girls.
+                                 </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold" style="font-size: 15px;">Our Mission</h5>
+                            <p class="edu_desc mb-0 mt-3 text-muted" style="color: black;">To transform the lives of Youth, Women and girl
+                                through proffering solutions for the promotion of a healthy lifestyle, STEM education, economic empowerment
+                                and the development of human capacity for sustainability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div >
+            <h1>Recommendation Letters</h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <div class="feature-img">
+                                
+                        
+                                <div class="feature-details" >
+                  
+                                    <p style="border-bottom: 1px solid #bd2fcade;; color: #370c3bde;"> <strong><b>Recommendation letter from international STEM partnering organization</b></strong></p>
+                                    
+                                    <p>
+                                        To Whom It May Concern:
+
+
+                                        I am pleased to write this recommendation letter for Mrs. Nkiru, founder, and executive director of Flourishing Life International Foundation in Nigeria. I have known Mrs. Nkiru for about a year and have been inspired by her unwavering commitment to promoting women's empowerment in STEM education in Nigeria.
+                                        
+                                        
+                                        Mrs. Nkiru's work is closely aligned with the Sustainable Development Goals (SDGs), particularly Gender Equality and Quality Education. Her initiative focuses on empowering women and girls in STEM education, which is crucial for achieving these SDGs.
+                                        
+                                        
+                                        Mrs. Nkiru's initiative has had an extraordinary impact on the achievement of the SDGs in Nigeria. By collaborating with traditional rulers such as the king of her village and elders, she has engaged men in supporting women's empowerment through STEM. This has resulted in a significant increase in the participation and representation of women in STEM fields in Nigeria, which is critical for achieving gender equality and inclusive education......
+                                        
+                                        
+                                        
+
+
+                                    </p>
+                                   <p><strong>To see the full document</strong> <a href="https://docs.google.com/document/d/1Qyf2Q0ztP6ddV4iOdj070M39fTqy1lEs/edit?usp=drivesdk&ouid=101593456845631530745&rtpof=true&sd=true" target="_blank" style="color: #891f97de">click here</a></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                           <div class="col-md-4">
+                               <div class="feature-box">
+                                   <div class="feature-img">
+                                  
+                                       <div class="feature-details">
+                                          
+                                        <p style="border-bottom: 1px solid #bd2fcade;; color: #370c3bde;"><b>Recommendation letter for the She4STEM initiative from a child development and STEM education promoting organization</b></p>
+                                          <p>Sincere greetings, I'm writing to endorse the She4STEM campaign of the Flourishing Life Foundation. The She
+                                            is for STEM (SHE4STEM) is an initiative of Flourishing Life International Foundation created
+                                            to promote the advancement of Science, Technology, Engineering, and Mathematics
+                                            (STEM) education and careers in schools by identifying, inspiring, including, and building the
+                                            innovative human capacities of girls towards the development and deployment of practical
+                                            applications of STEM. The vision is to develop and drive initiatives to close the STEM talent
+                                            gaps, bringing girls and women to the forefront of STEM education and careers. As a partner
+                                            in promoting access to quality children in underserved communities and advancing the
+                                            inclusion of more girls/ young women into the STEM education and career pool, I have had
+                                            the honor of working closely with the applicant (Nkiruka Chinwe Onuko) for the past 1 year. I
+                                            have seen firsthand the profound influence She4STEM has had on the lives of numerous
+                                            girls/ women in the underserved communities in Federal capital territory,......
+                                            </p> 
+                                        <p><b>To see the full document</b> <a href="https://drive.google.com/file/d/1X7i7eJ7xbCkPEW1BetB_-rCy0IP0O03Z/view?usp=drivesdk" target="_blank" style="color: #891f97de">click here</a></p>
+                                           
+                                       </div>
+                                       <br><br>
+                                   </div>
+                               </div>
+                           </div>
+            
+                           
+                           <div class="col-md-4">
+                               <div class="feature-box">
+                                   <div class="feature-img">
+                                    
+                                      
+                                       <div class="feature-details">
+                                           <p style="border-bottom: 1px solid #bd2fcade;; color: #370c3bde;"><b>Recommendation letter from international STEM partnering organization</b></p>
+                                           <p>To Whom It May Concern:
+
+
+                                            I am pleased to write this recommendation letter for Mrs. Nkiru, founder, and executive director of Flourishing Life International Foundation in Nigeria. I have known Mrs. Nkiru for about a year and have been inspired by her unwavering commitment to promoting women's empowerment in STEM education in Nigeria.
+                                            
+                                            
+                                            Mrs. Nkiru's work is closely aligned with the Sustainable Development Goals (SDGs), particularly Gender Equality and Quality Education. Her initiative focuses on empowering women and girls in STEM education, which is crucial for achieving these SDGs.
+                                            
+                                            
+                                            Mrs. Nkiru's initiative has had an extraordinary impact on the achievement of the SDGs in Nigeria. By collaborating with traditional rulers such as the king of her village and elders, she has engaged men in supporting women's empowerment through STEM. This has resulted in a significant increase in the participation and representation of women in STEM fields in Nigeria, which is critical for achieving gender equality and inclusive education.
+                                            
+                                            
+                                            Mrs. Nkiru's approach is innovative and has the potential to be scaled up and replicated in other parts of Nigeria and beyond.                                           </p>
+                                           <p><b>To see the full document </b><a href="https://docs.google.com/document/d/1Qyf2Q0ztP6ddV4iOdj070M39fTqy1lEs/edit?usp=drivesdk&ouid=101593456845631530745&rtpof=true&sd=true" target="_blank" style="color: #891f97de">click here</a></p>
+                                          
+                                       </div>
+                                       <br><br>   <br><br>
+                                   </div>
+                               </div>
+                           </div>
+                           
+
+
+        </div>
+    </section>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+  
+            <div class="grid-container">
+                <div class="grid-item">
+  
+                    <img src="images/ngo25.png" class="logo-img" style="border-radius: 50%;">
+  
+                </div>
+  
+                <div class="grid-item inner-grid-container">
+  
+                  <div class="grid-item"><a href="index.html" id="ai">Home</a></div>
+                  <div class="grid-item"><a href="projects.html" id="az">Our Projects</a></div>
+                  <div class="grid-item"><a href="index.html" id="az">FLIFO</a></div><br>
+                  <div class="grid-item"><a href="privacy.html" id="az">Privacy Policy</a></div>
+                  <div class="grid-item"><a href="volunteersForm.html" id="az">Join Us</a></div>
+                  <div class="grid-item"><a href="contactus.html" id="az">Contact Us</a></div>
+              </div>
+  
+                 <div class="grid-item">
+                <div class = "social-buttons" style="float:left;">
+                    <a href= "https://www.instagram.com/sgjss_29/" target="_blank" ><i class="fab fa-instagram circle-icon"></i></a>
+                    <a href= "https://www.facebook.com/pg/shreegurujambheswarsevasansthan/photos/?ref=page_internal" target="_blank"><i class="fab fa-facebook circle-icon"></i></a>
+                    <a href= "https://api.whatsapp.com/send/?phone=919414334192&text&app_absent=0" target="_blank"><i class="fab fa-whatsapp circle-icon"></i></a><br>
+                    <a href= "https://www.linkedin.com/in/shree-guru-jambeshwar-sewa-sansthan-1106651b3/" target="_blank"><i class="fab fa-linkedin-in circle-icon"></i></a>
+                    <a href= "https://twitter.com/guru_sansthan" target="_blank"><i class="fab fa-twitter circle-icon"></i></a>
+                </div>
+            </div>  
+            </div>
+            <hr>
+  
+            <p style="text-align: center;">Copyright © 2023 FLIFO | All rights reserved</p>
+  
+        </div>
+    </footer>
+  
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+    <title>ABOUT US</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/ngo25.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
     <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
